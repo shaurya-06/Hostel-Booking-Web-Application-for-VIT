@@ -1,0 +1,139 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: montserrat;
+  text-align: center;
+}
+
+h1{
+  font-size: 68px;
+}
+
+hr{
+  border: 2px solid #2980b9;
+  width: 97%;
+  border-radius: 5px;
+  margin: auto;
+  text-align: center;
+}
+
+h2{
+  font-size: 44px;
+}
+
+input{
+  border: none;
+  padding: 0 10px;
+  font-size: 15px;
+}
+
+button{
+  padding: 10px 60px;
+  border-radius: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.container{
+  width: 60%;
+  padding: 40px 0;
+  border-radius: 10px;
+  box-shadow: 15px 15px 4px #515151;
+  margin: auto;
+  background-color: #2980b9;
+  place-items: center;
+  text-align: center;
+}
+
+table{
+  margin: auto;
+  text-align: center;
+  border-collapse: separate;
+  border-spacing: 2em 2em;
+  color: white;
+  font-weight: bold;
+}
+
+table tr td:first-child{
+  margin: auto;
+  float: right;
+}
+
+table tr td{
+  font-size: 24px;
+}
+
+input, select{
+  width: 600px;
+  height: 36px;
+  border-radius: 10px;
+}
+
+#button-cancel-reg{
+  width: 20%;
+}
+
+#year-from-input, #year-to-input{
+  width: 270px;
+}
+
+#button-room-reg{
+  width: 200px;
+  cursor: pointer;
+}
+
+button{
+  text-decoration: none;
+}
+
+textarea{
+  border-radius: 10px;
+  text-align: left;
+}
+
+button{
+  padding: 10px 40px;
+  border-radius: 10px;
+  font-size: 16px;
+  border: none;
+  width: 200px;
+  cursor: pointer;
+}
+
+.nav-bar{
+  background-color: #2980b9;
+  display: inline-flex;
+  width: 100%;
+}
+
+.nav-bar ul li a:hover{
+  color: #2980b9;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.nav-bar ul li{
+  color: white;
+  background-color: #2980b9;
+  display: inline-flex;
+  text-decoration: none;
+  font-size: 32px;
+  padding: 5px 30px;
+}
+
+.nav-bar ul li a{
+  color: white;
+  background-color: #2980b9;
+  text-decoration: none;
+}
+
+.nav-bar ul{
+  text-align: right;
+  background-color: #2980b9;
+}
+
+.nav-bar ul:first-child{
+  text-align: left;
+  background-color: #2980b9;
+}

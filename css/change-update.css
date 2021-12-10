@@ -1,0 +1,101 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: montserrat;
+}
+
+.due-date, .points{
+  background-color: #bfbfbf;
+  float: right;
+}
+
+.right h1{
+  font-size: 48px;
+  padding-top: .3em;
+  color: Black;
+}
+
+.left h2{
+  padding-top: 1em;
+  font-size: 40px;
+}
+
+.container{
+  display: inline-flex;
+  width: 100%;
+  height: 94vh;
+}
+
+.left{
+  width: 20%;
+  background-color: #2980b9;
+  text-align: center;
+}
+
+.right{
+  width: 80%;
+  text-align: center;
+  background-size: cover;
+  background-color: #ecf0f1;
+}
+
+.nav-bar{
+  background-color: #fff;
+  display: inline-flex;
+  width: 100%;
+}
+
+.nav-bar ul li{
+  color: white;
+  background-color: white;
+  display: inline-flex;
+  text-decoration: none;
+  font-size: 36px;
+  padding: 5px 30px;
+}
+
+.nav-bar ul li a:hover{
+  color: white;
+  background-color: #2980b9;
+  border-radius: 5px;
+  
+}
+
+.nav-bar ul li a{
+  color: #2980b9;
+  background-color: white;
+  text-decoration: none;
+}
+
+.nav-bar ul{
+  text-align: right;
+  background-color: white;
+}
+
+.nav-bar ul:first-child{
+  text-align: left;
+  background-color: white;
+}
+
+textarea{
+  border-radius: 10px;
+  text-align: left;
+}
+
+input{
+  border: 1px solid black;
+  width: 500px;
+  height: 36px;
+  border-radius: 10px;
+}
+
+button{
+  background-color: #2980b9;
+  border: 1px solid white;
+  padding: 5px 20px;
+  border-radius: 10px;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}

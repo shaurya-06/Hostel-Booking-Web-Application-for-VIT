@@ -1,0 +1,52 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: montserrat;
+  text-align: center;
+}
+
+h1{
+  font-size: 68px;
+}
+
+h3{
+  font-size: 30px;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+hr{
+  border: 2px solid #2980b9;
+  width: 97%;
+  border-radius: 5px;
+  margin: auto;
+  text-align: center;
+}
+
+h2{
+  font-size: 44px;
+}
+
+button{
+  padding: 10px 0;
+  width: 250px;
+  border-radius: 10px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.container{
+  width: 50%;
+  padding: 40px 0;
+  border-radius: 10px;
+  box-shadow: 15px 15px 4px #515151;
+  top: 1px;
+  margin: auto;
+  background-color: #2980b9;
+  place-items: center;
+  text-align: center;
+}

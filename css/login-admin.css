@@ -1,0 +1,82 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: montserrat;
+  text-align: center;
+}
+
+h1{
+  font-size: 68px;
+}
+
+hr{
+  border: 2px solid #2980b9;
+  width: 97%;
+  border-radius: 5px;
+  margin: auto;
+  text-align: center;
+}
+
+h2{
+  font-size: 44px;
+}
+
+.username{
+  background-color: white;
+  border-radius: 25px;
+  margin: 0 350px;
+  line-height: 36px;
+}
+
+#userimg{
+  float: left;
+}
+
+#passimg{
+  float: left;
+  width: 26px;
+  padding-left: 5px;
+}
+
+input{
+  border: none;
+  padding: 0 10px;
+  font-size: 15px;
+}
+
+button{
+  padding: 10px 40px;
+  border-radius: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+#show-pass{
+  cursor: pointer;
+  padding-top: 2px;
+  margin: 0 400px;
+}
+
+.password{
+  background-color: white;
+  border-radius: 25px;
+  margin: 0 350px;
+  line-height: 36px;
+}
+
+img{
+  width: 36px;
+}
+
+.container{
+  width: 50%;
+  padding: 40px 0;
+  border-radius: 10px;
+  box-shadow: 15px 15px 4px #515151;
+  top: 1px;
+  margin: auto;
+  background-color: #2980b9;
+  place-items: center;
+  text-align: center;
+}
